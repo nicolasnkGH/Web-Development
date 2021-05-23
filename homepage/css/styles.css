@@ -1,12 +1,10 @@
 body {
-
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-size: 150%;
-    font-weight: 800;
-    line-height: 1.5;
-
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  font-weight: 800;
+  line-height: 1.5;
 }
 
 /* resize image for all devices*/
@@ -15,7 +13,9 @@ img {
   height: auto;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -23,12 +23,12 @@ input[type=text], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -37,7 +37,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -77,16 +77,13 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
   opacity: 0.7;
 }
 
 p2 {
   color: purple;
 }
-
-
-
